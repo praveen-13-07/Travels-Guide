@@ -1,0 +1,278 @@
+/*.fullbody{
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_2t/18759.jpg);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.headbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(244, 244, 85);
+    padding-right: 90px;
+    padding-left: 90px;
+
+}
+
+.rightheading {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.leftheading {
+    font-size: 45px;
+    font-weight: bold;
+
+}
+
+.one {
+    display: inline;
+    border: black solid 5px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+
+}
+
+li {
+    display: inline;
+    border-radius: 10px;
+    text-transform: capitalize;
+    padding: 10px 10px;
+
+}
+
+
+a {
+    color: black;
+}
+
+.content1 {
+    display: flex;
+    padding-left: 37%;
+    padding-top: 20px;
+    color: black;
+}
+
+.maincontent {
+    padding-top: 20px;
+    padding-left: 30%;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.maincontent1 {
+    padding-left: 40px;
+    color: rgb(244, 244, 85);
+}
+
+.maincontent2 {
+    padding-left: 40px;
+}
+
+.content2 {
+    padding-right: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.btncontainer {
+    position: relative;
+}
+
+.btn1 {
+    position: absolute;
+    margin-left: 37%;
+    margin-top: 10px;
+    background-color: rgb(244, 244, 85);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.btn2 {
+    position: absolute;
+    margin-left: 48%;
+    margin-top: 10px;
+    background-color: rgb(109, 104, 104);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.status {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mainfooter {
+    background-color: rgb(244, 244, 85);
+    ;
+}
+
+.mid {
+    padding-left: 39%;
+    text-transform: uppercase;
+    color: rgb(93, 93, 40);
+    ;
+}
+
+.mid1 {
+    font-size: 55px;
+    font-weight: 10px;
+    padding-left: 28%;
+}
+
+.mid2 {
+    padding-right: 40px;
+    text-align: center;
+     font-weight: bold;
+    font-size: 30px;
+}
+
+.imagecontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.img {
+    width: 450px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 15px; 
+    
+    
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img {
+    position: relative;
+    overflow: hidden;
+}
+
+.img img {
+    width: 100%;
+    display: block;
+}
+
+.imgtext {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+    background: rgba(0, 0, 0, 0.5);
+    color: rgb(249, 244, 244);
+    
+    padding: 10px;
+}
+.imgtext h4{
+    text-transform:uppercase ;
+    color: rgb(244, 244, 85);
+}
+.mid3{
+    text-transform: uppercase;
+    color: rgb(109, 104, 104) ;
+    text-align: center;
+}
+.mid4{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.mid5{
+    text-align: center;
+     font-weight: bold;
+    font-size: 30px;
+}
+.feature-container{
+    background-color: aliceblue;
+}
+.feature-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+
+.feature-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 30px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  transition: 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.icon1{
+  font-size: 32px;
+  margin-bottom: 15px;
+  background-color: lightgreen;
+  display: inline;
+  padding: 10px;
+  border-radius: 10px;
+}
+.icon2{
+  font-size: 32px;
+  margin-bottom: 15px;
+  background-color: lightblue;
+  display: inline;
+  padding: 10px;
+  border-radius: 10px;
+}
+.icon3{
+  font-size: 32px;
+  margin-bottom: 15px;
+  background-color: lightslategray;
+  display: inline;
+  padding: 10px;
+  border-radius: 10px;
+}
+.icon4{
+  font-size: 32px;
+  margin-bottom: 15px;
+  background-color: lightcoral;
+  display: inline;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.feature-card h3 {
+  margin-bottom: 10px;
+  color: black;
+}
+
+.feature-card p {
+  color: #6b7a90;
+  font-size: 14px;
+  line-height: 1.5;
+}
