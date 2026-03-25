@@ -1,4 +1,4 @@
-/* ---------------- BODY ---------------- */
+/* ---------- BODY ---------- */
 
 body{
 margin:0;
@@ -6,7 +6,7 @@ padding:0;
 font-family:'Poppins',sans-serif;
 }
 
-/* ---------------- NAVBAR ---------------- */
+/* ---------- NAVBAR ---------- */
 
 .headbar{
 display:flex;
@@ -27,6 +27,7 @@ display:flex;
 gap:15px;
 list-style:none;
 padding:0;
+margin:0;
 }
 
 .rightheading li{
@@ -39,7 +40,7 @@ text-decoration:none;
 color:black;
 }
 
-/* ---------------- BADGE ---------------- */
+/* ---------- BADGE ---------- */
 
 .content1{
 display:flex;
@@ -51,12 +52,10 @@ padding-top:20px;
 border:black solid 5px;
 border-radius:10px;
 padding:10px 20px;
-text-transform:capitalize; 
-list-style: none;
-
+text-transform:capitalize;
 }
 
-/* ---------------- HERO TEXT ---------------- */
+/* ---------- HERO TEXT ---------- */
 
 .maincontent{
 text-align:center;
@@ -79,7 +78,7 @@ font-size:30px;
 padding:20px;
 }
 
-/* ---------------- BUTTONS ---------------- */
+/* ---------- BUTTONS ---------- */
 
 .btncontainer{
 display:flex;
@@ -105,7 +104,7 @@ cursor:pointer;
 color:white;
 }
 
-/* ---------------- STATUS SECTION ---------------- */
+/* ---------- STATUS SECTION ---------- */
 
 .mainfooter{
 background-color:rgb(244,244,85);
@@ -119,7 +118,7 @@ flex-wrap:wrap;
 text-align:center;
 }
 
-/* ---------------- TITLES ---------------- */
+/* ---------- TITLES ---------- */
 
 .mid{
 text-align:center;
@@ -139,11 +138,11 @@ font-size:30px;
 padding:10px;
 }
 
-/* ---------------- DESTINATION GRID ---------------- */
+/* ---------- DESTINATION GRID ---------- */
 
 .imagecontainer{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+grid-template-columns:repeat(3,1fr);
 gap:20px;
 padding:20px;
 }
@@ -177,7 +176,7 @@ text-transform:uppercase;
 color:rgb(244,244,85);
 }
 
-/* ---------------- FEATURE SECTION ---------------- */
+/* ---------- FEATURE SECTION ---------- */
 
 .feature-container{
 background-color:aliceblue;
@@ -204,7 +203,7 @@ font-size:30px;
 
 .feature-grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+grid-template-columns:repeat(4,1fr);
 gap:20px;
 padding:20px;
 }
@@ -233,7 +232,7 @@ font-size:14px;
 line-height:1.5;
 }
 
-/* ---------------- ICONS ---------------- */
+/* ---------- ICONS ---------- */
 
 .icon1{
 font-size:32px;
@@ -271,7 +270,7 @@ padding:10px;
 border-radius:10px;
 }
 
-/* ---------------- MOBILE RESPONSIVE ---------------- */
+/* ---------- MOBILE RESPONSIVE ---------- */
 
 @media (max-width:768px){
 
@@ -279,9 +278,15 @@ border-radius:10px;
 font-size:28px;
 }
 
+.headbar{
+flex-direction:column;
+align-items:center;
+}
+
 .rightheading{
 flex-direction:column;
 align-items:center;
+gap:10px;
 }
 
 .maincontent{
@@ -308,9 +313,21 @@ font-size:30px;
 font-size:20px;
 }
 
+.imagecontainer{
+grid-template-columns:1fr;
+}
+
+.feature-grid{
+grid-template-columns:1fr;
+}
+
 .status{
 flex-direction:column;
 gap:20px;
+}
+
+.img{
+height:300px;
 }
 
 }
